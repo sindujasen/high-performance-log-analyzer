@@ -1,0 +1,29 @@
+timestamp,level,module,message
+01-03-2026 09:00,INFO,EngineModule,Engine started successfully
+01-03-2026 09:00,INFO,SensorModule,Temperature sensor initialized
+01-03-2026 09:00,INFO,BatteryModule,Battery voltage stable at 24V
+01-03-2026 09:00,WARNING,SensorModule,Temperature nearing upper threshold
+01-03-2026 09:00,ERROR,SensorModule,Temperature overflow detected
+01-03-2026 09:00,INFO,CANModule,CAN bus communication established
+01-03-2026 09:00,ERROR,CANModule,CAN message timeout
+01-03-2026 09:00,INFO,DisplayModule,Operator display initialized
+01-03-2026 09:00,WARNING,BatteryModule,Voltage fluctuation detected
+01-03-2026 09:00,ERROR,BatteryModule,Voltage below safe limit
+01-03-2026 09:00,INFO,EngineModule,Engine RPM stable
+01-03-2026 09:00,INFO,SensorModule,Temperature normalized
+01-03-2026 09:00,ERROR,CANModule,Lost communication with ECU
+01-03-2026 09:00,INFO,RecoveryModule,Attempting CAN bus reset
+01-03-2026 09:00,INFO,CANModule,Communication restored
+01-03-2026 09:01,WARNING,SensorModule,Intermittent sensor delay detected
+01-03-2026 09:01,ERROR,SensorModule,Sensor timeout
+01-03-2026 09:01,INFO,EngineModule,Engine load within normal range
+01-03-2026 09:01,INFO,BatteryModule,Charging cycle initiated
+01-03-2026 09:01,ERROR,EngineModule,Engine overheating detected
+01-03-2026 09:01,WARNING,EngineModule,Cooling system response slow
+01-03-2026 09:01,INFO,CoolingModule,Cooling fan speed increased
+01-03-2026 09:01,INFO,EngineModule,Temperature returning to normal
+01-03-2026 09:01,INFO,SensorModule,Sensor calibration completed
+01-03-2026 09:01,ERROR,DisplayModule,Display communication lost
+01-03-2026 09:01,INFO,DisplayModule,Display reconnected successfully
+01-03-2026 09:01,INFO,SystemModule,System diagnostics running
+01-03-2026 09:02,INFO,SystemModule,Diagnostics completed successfully
